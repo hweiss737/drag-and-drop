@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <drag-drop-container header="Drag 'n Drop" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DragDropContainer from "./components/DragDropContainer.vue";
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    DragDropContainer
+  },
+};
 </script>
 
 <style>
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #E3E2DF;
+  height: 100%;
+}
+body {
+  height: 100%;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
 }
 </style>

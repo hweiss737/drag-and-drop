@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("Lato"), url("/fonts/lato/Lato-Regular.ttf") format("truetype");
+  }
+  
+.header {
+    font-family: "Lato", Helvetica, Arial;
+    text-align: center;
+    color: #343434;
+    font-weight: bold;
+  }
+
+.component-body {
+    flex-direction: column;
+    margin: 20px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.block {
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+  align-content: center;
+  padding: 5%;
+  background-color: white;
+  margin: 12px;
+}
+
+.props-header {
+  margin-top: 50px;
+}
+
+.props-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
