@@ -1,7 +1,7 @@
 <template>
     <label class="switch">
         <input type="checkbox" id="toggle" v-model="toggleStatus" v-on:click="$emit('toggleSlider', !toggleStatus)">
-        <span class="slider round"></span>
+        <span class="slider"></span>
     </label>
 </template>
 

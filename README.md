@@ -1,4 +1,4 @@
-# hello-world
+# drag-and-drop
 
 ## Project setup
 ```
