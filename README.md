@@ -2,7 +2,7 @@
 
 ## Description
 
-Clean drag and drop list component built with Vue.js. Basic component allows for item sortability of a parent array. Additional optional properties include limiting sort action to a handle, deleting items from the list, adding items to the list and including enumeration on each item. These properties can be demonstated by use of the toggles.
+Clean drag and drop list component built with Vue.js. Basic component allows for item sortability of a parent array. Additional optional properties include limiting sort action to a handle, deleting items from the list, adding items to the list and including enumeration on each item. These properties can be demonstated by use of the toggles. Component can be viewed at: https://hweiss737-drag-and-drop.herokuapp.com/
 
 ## Project setup
 ```
